@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Application</h1>
+        <div class="question-container">
+            <p id="question"></p>
+            <ul id="answers">
+                <li><input type="radio" id="answer1" name="answer"><label for="answer1">Paris</label></li>
+                <li><input type="radio" id="answer2" name="answer"><label for="answer2">london</label></li>
+                <li><input type="radio" id="answer3" name="answer"><label for="answer3">berlin</label></li>
+                <li><input type="radio" id="answer4" name="answer"><label for="answer4">rome</label></li>
+            </ul>
+            <button id="submit">Submit</button>
+        </div>
+        <div class="result-container">
+            <p id="result"></p>
+            <p id="score"></p>
+        </div>
+    </div>
+
+    <script src="quiz.ts"></script>
+</body>
+</html>
